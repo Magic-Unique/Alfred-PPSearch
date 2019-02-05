@@ -1,0 +1,28 @@
+PODS:
+  - AlfredKit (0.1.0)
+  - CommandLine (1.1.3)
+  - MJExtension (3.0.15.1)
+  - MUFoundation/MUPath (0.0.4)
+
+DEPENDENCIES:
+  - AlfredKit
+  - CommandLine
+  - MJExtension
+  - MUFoundation/MUPath
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AlfredKit
+    - CommandLine
+    - MJExtension
+    - MUFoundation
+
+SPEC CHECKSUMS:
+  AlfredKit: 93b1b2aacba72057885cd407d434e2b8d6d65722
+  CommandLine: ec5896515b12243c127c8f64f32d5af4ec22e0b8
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  MUFoundation: f6f5a278da2be7f3b1471a58a47a2ba55c41e286
+
+PODFILE CHECKSUM: 5149c0a61fcdbb3fb2b4a7fe75dc4d225290e2d8
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E95532122044E57001D5B3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E95532022044E57001D5B3D /* main.m */; };
+		7E95532A22044F68001D5B3D /* PDHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E95532922044F68001D5B3D /* PDHTTPSessionManager.m */; };
+		7E95532D22044F92001D5B3D /* CLCommand+PDSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E95532C22044F92001D5B3D /* CLCommand+PDSearch.m */; };
+		7E95533022045D17001D5B3D /* PDSearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E95532F22045D17001D5B3D /* PDSearchModel.m */; };
+		7E955337220566AB001D5B3D /* CLCommand+Alfred.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E955336220566AB001D5B3D /* CLCommand+Alfred.m */; };
+		7E95533A220567C5001D5B3D /* MUPath+Alfred.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E955339220567C5001D5B3D /* MUPath+Alfred.m */; };
+		CFC1CC89782D035A8DCEF131 /* libPods-PPDownloader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D07FBEE13B5D737CC7DF6D /* libPods-PPDownloader.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7E95531B22044E57001D5B3D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		76D07FBEE13B5D737CC7DF6D /* libPods-PPDownloader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PPDownloader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E95531D22044E57001D5B3D /* PPDownloader */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PPDownloader; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E95532022044E57001D5B3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E95532722044EE8001D5B3D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7E95532822044F68001D5B3D /* PDHTTPSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDHTTPSessionManager.h; sourceTree = "<group>"; };
+		7E95532922044F68001D5B3D /* PDHTTPSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDHTTPSessionManager.m; sourceTree = "<group>"; };
+		7E95532B22044F92001D5B3D /* CLCommand+PDSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CLCommand+PDSearch.h"; sourceTree = "<group>"; };
+		7E95532C22044F92001D5B3D /* CLCommand+PDSearch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CLCommand+PDSearch.m"; sourceTree = "<group>"; };
+		7E95532E22045D17001D5B3D /* PDSearchModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDSearchModel.h; sourceTree = "<group>"; };
+		7E95532F22045D17001D5B3D /* PDSearchModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDSearchModel.m; sourceTree = "<group>"; };
+		7E955335220566AB001D5B3D /* CLCommand+Alfred.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CLCommand+Alfred.h"; sourceTree = "<group>"; };
+		7E955336220566AB001D5B3D /* CLCommand+Alfred.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CLCommand+Alfred.m"; sourceTree = "<group>"; };
+		7E955338220567C5001D5B3D /* MUPath+Alfred.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MUPath+Alfred.h"; sourceTree = "<group>"; };
+		7E955339220567C5001D5B3D /* MUPath+Alfred.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MUPath+Alfred.m"; sourceTree = "<group>"; };
+		D0D1373177040FC3A9D655D9 /* Pods-PPDownloader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPDownloader.release.xcconfig"; path = "Pods/Target Support Files/Pods-PPDownloader/Pods-PPDownloader.release.xcconfig"; sourceTree = "<group>"; };
+		F5D63A9E7E33376E7483A3D3 /* Pods-PPDownloader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPDownloader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PPDownloader/Pods-PPDownloader.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E95531A22044E57001D5B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC1CC89782D035A8DCEF131 /* libPods-PPDownloader.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0051B05DC1BAB8E2D1CAF928 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5D63A9E7E33376E7483A3D3 /* Pods-PPDownloader.debug.xcconfig */,
+				D0D1373177040FC3A9D655D9 /* Pods-PPDownloader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7E95531422044E57001D5B3D = {
+			isa = PBXGroup;
+			children = (
+				7E95531F22044E57001D5B3D /* PPDownloader */,
+				7E95531E22044E57001D5B3D /* Products */,
+				0051B05DC1BAB8E2D1CAF928 /* Pods */,
+				E622DE6EF7493A0BFFB73EEB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7E95531E22044E57001D5B3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E95531D22044E57001D5B3D /* PPDownloader */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E95531F22044E57001D5B3D /* PPDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				7E95532022044E57001D5B3D /* main.m */,
+				7E95532722044EE8001D5B3D /* PrefixHeader.pch */,
+				7E95532E22045D17001D5B3D /* PDSearchModel.h */,
+				7E95532F22045D17001D5B3D /* PDSearchModel.m */,
+				7E95532822044F68001D5B3D /* PDHTTPSessionManager.h */,
+				7E95532922044F68001D5B3D /* PDHTTPSessionManager.m */,
+				7E95532B22044F92001D5B3D /* CLCommand+PDSearch.h */,
+				7E95532C22044F92001D5B3D /* CLCommand+PDSearch.m */,
+				7E955335220566AB001D5B3D /* CLCommand+Alfred.h */,
+				7E955336220566AB001D5B3D /* CLCommand+Alfred.m */,
+				7E955338220567C5001D5B3D /* MUPath+Alfred.h */,
+				7E955339220567C5001D5B3D /* MUPath+Alfred.m */,
+			);
+			path = PPDownloader;
+			sourceTree = "<group>";
+		};
+		E622DE6EF7493A0BFFB73EEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76D07FBEE13B5D737CC7DF6D /* libPods-PPDownloader.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E95531C22044E57001D5B3D /* PPDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E95532422044E57001D5B3D /* Build configuration list for PBXNativeTarget "PPDownloader" */;
+			buildPhases = (
+				74927F7E0C51A7E7AB72D01E /* [CP] Check Pods Manifest.lock */,
+				7E95531922044E57001D5B3D /* Sources */,
+				7E95531A22044E57001D5B3D /* Frameworks */,
+				7E95531B22044E57001D5B3D /* CopyFiles */,
+				7E955331220533FA001D5B3D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PPDownloader;
+			productName = PPDownloader;
+			productReference = 7E95531D22044E57001D5B3D /* PPDownloader */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E95531522044E57001D5B3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "吴双";
+				TargetAttributes = {
+					7E95531C22044E57001D5B3D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 7E95531822044E57001D5B3D /* Build configuration list for PBXProject "PPDownloader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7E95531422044E57001D5B3D;
+			productRefGroup = 7E95531E22044E57001D5B3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E95531C22044E57001D5B3D /* PPDownloader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		74927F7E0C51A7E7AB72D01E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PPDownloader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E955331220533FA001D5B3D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "rm /usr/local/bin/pdtool\ncp ${BUILT_PRODUCTS_DIR}/${TARGET_NAME} /usr/local/bin/pdtool\n\nALFRED=\"${SRCROOT}/..\"\nrm \"${ALFRED}/pdtool\"\ncp ${BUILT_PRODUCTS_DIR}/${TARGET_NAME} \"${ALFRED}/pdtool\"\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E95531922044E57001D5B3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E95532D22044F92001D5B3D /* CLCommand+PDSearch.m in Sources */,
+				7E95533022045D17001D5B3D /* PDSearchModel.m in Sources */,
+				7E95533A220567C5001D5B3D /* MUPath+Alfred.m in Sources */,
+				7E95532A22044F68001D5B3D /* PDHTTPSessionManager.m in Sources */,
+				7E95532122044E57001D5B3D /* main.m in Sources */,
+				7E955337220566AB001D5B3D /* CLCommand+Alfred.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7E95532222044E57001D5B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7E95532322044E57001D5B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7E95532522044E57001D5B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5D63A9E7E33376E7483A3D3 /* Pods-PPDownloader.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "${TARGET_NAME}/PrefixHeader.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E95532622044E57001D5B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0D1373177040FC3A9D655D9 /* Pods-PPDownloader.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "${TARGET_NAME}/PrefixHeader.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E95531822044E57001D5B3D /* Build configuration list for PBXProject "PPDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E95532222044E57001D5B3D /* Debug */,
+				7E95532322044E57001D5B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E95532422044E57001D5B3D /* Build configuration list for PBXNativeTarget "PPDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E95532522044E57001D5B3D /* Debug */,
+				7E95532622044E57001D5B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E95531522044E57001D5B3D /* Project object */;
+}
